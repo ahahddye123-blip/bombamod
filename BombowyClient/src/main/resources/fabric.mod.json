@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bombowyclient",
+  "version": "${version}",
+  "name": "BombowyMod",
+  "description": "BombowyMod / BombowyClient 1.21.4 — wydajność, FPS, hitboxy na celowaniu, czysty obraz, cooldowny, scoreboard, ekwipunek HUD i edytor HUD.",
+  "authors": ["BombowyClient"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.bombowy.client.BombowyClient"]
+  },
+  "mixins": ["bombowyclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
